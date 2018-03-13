@@ -1,0 +1,16 @@
+{
+  "name": "intro-express-joeshep",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "db:reset": "node db/build-db",
+    "start": "nodemon app.js",
+    "test": "nodemon --exec \"mocha --recursive\" -R list"
+  },
+  "engines": {
+    "node": "7.3.0"
+  },
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
